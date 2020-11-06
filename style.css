@@ -1,0 +1,22 @@
+body,
+html {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
